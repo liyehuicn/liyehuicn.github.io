@@ -5,14 +5,35 @@
   
 
 
-<html class="theme-next pisces use-motion" lang="zh-Hans">
+<html class="theme-next mist use-motion" lang="zh-Hans">
 <head>
   <meta charset="UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
-<meta name="theme-color" content="#222">
+<script src="//cdn.bootcss.com/pace/1.0.2/pace.min.js"></script>
+<link href="//cdn.bootcss.com/pace/1.0.2/themes/pink/pace-theme-flash.css" rel="stylesheet">
+<style>
+    .pace .pace-progress {
+        background: #1E92FB; /*进度条颜色*/
+        height: 3px;
+    }
+    .pace .pace-progress-inner {
+         box-shadow: 0 0 10px #1E92FB, 0 0 5px     #1E92FB; /*阴影颜色*/
+    }
+    .pace .pace-activity {
+        border-top-color: #1E92FB;    /*上边框颜色*/
+        border-left-color: #1E92FB;    /*左边框颜色*/
+    }
+</style>
 
 
+
+  
+  
+    
+    
+  <script src="/lib/pace/pace.min.js?v=1.0.2"></script>
+  <link href="/lib/pace/pace-theme-minimal.min.css?v=1.0.2" rel="stylesheet">
 
 
 
@@ -96,12 +117,12 @@
 
 
 <meta property="og:type" content="website">
-<meta property="og:title" content="业辉博客">
+<meta property="og:title" content="yehui&#39;blog">
 <meta property="og:url" content="http://fefz.win/archives/2017/index.html">
-<meta property="og:site_name" content="业辉博客">
+<meta property="og:site_name" content="yehui&#39;blog">
 <meta property="og:locale" content="zh-Hans">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="业辉博客">
+<meta name="twitter:title" content="yehui&#39;blog">
 
 
 
@@ -109,7 +130,7 @@
   var NexT = window.NexT || {};
   var CONFIG = {
     root: '/',
-    scheme: 'Pisces',
+    scheme: 'Mist',
     version: '',
     sidebar: {"position":"left","display":"post","offset":12,"offset_float":12,"b2t":false,"scrollpercent":false,"onmobile":false},
     fancybox: true,
@@ -137,7 +158,7 @@
 
 
 
-  <title>归档 | 业辉博客</title>
+  <title>归档 | yehui'blog</title>
   
 
 
@@ -168,7 +189,7 @@
 
   <div class="container sidebar-position-left page-archive">
     <div class="headband"></div>
-
+<a href="https://liyehuicn.github.io"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://camo.githubusercontent.com/652c5b9acfaddf3a9c326fa6bde407b87f7be0f4/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f6f72616e67655f6666373630302e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_orange_ff7600.png"></a>
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
       <div class="header-inner"><div class="site-brand-wrapper">
   <div class="site-meta ">
@@ -177,7 +198,7 @@
     <div class="custom-logo-site-title">
       <a href="/"  class="brand" rel="start">
         <span class="logo-line-before"><i></i></span>
-        <span class="site-title">业辉博客</span>
+        <span class="site-title">yehui'blog</span>
         <span class="logo-line-after"><i></i></span>
       </a>
     </div>
@@ -491,7 +512,7 @@
 
   <span class="post-meta-divider">|</span>
   
-  <div class="theme-info">主题 &mdash; <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">NexT.Pisces</a> | Hosted by <a href="https://pages.coding.me" style="font-weight: bold">Coding Pages</a></div>
+  <div class="theme-info">主题 &mdash; <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">NexT.Mist</a> | Hosted by <a href="https://pages.coding.me" style="font-weight: bold">Coding Pages</a></div>
 
 
         
@@ -574,13 +595,6 @@
 
   
   
-
-
-  <script type="text/javascript" src="/js/src/affix.js?v="></script>
-
-  <script type="text/javascript" src="/js/src/schemes/pisces.js?v="></script>
-
-
 
   <script type="text/javascript" src="/js/src/scrollspy.js?v="></script>
 <script type="text/javascript" src="/js/src/post-details.js?v="></script>
