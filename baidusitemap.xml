@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+
+    
+  <url>
+    <loc>http://blog.liyehui.cn/2017/09/02/%E9%80%9A%E8%BF%87%20Hexo%20%E6%8F%92%E4%BB%B6%E6%8F%92%E5%85%A5%E9%9F%B3%E4%B9%90%E8%A7%86%E9%A2%91/</loc>
+    <lastmod>2017-09-05T13:44:58.000Z</lastmod>
+    <data>
+        <display>
+        <title>通过 Hexo 插件插入音乐/视频</title>
+        <pubTime>2017-09-02T03:59:39.000Z</pubTime>
+        
+        <tag>播放器</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+    
+  <url>
+    <loc>http://blog.liyehui.cn/2017/09/02/hello-world/</loc>
+    <lastmod>2017-09-02T02:43:10.000Z</lastmod>
+    <data>
+        <display>
+        <title>Hello World</title>
+        <pubTime>2017-09-02T02:43:08.960Z</pubTime>
+        
+         
+           
+        </display>
+    </data>
+    </url>
+
+</urlset>
