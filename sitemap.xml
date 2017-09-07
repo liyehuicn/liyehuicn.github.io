@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://blog.liyehui.cn/2017/09/02/hexo%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</loc>
+    
+    <lastmod>2017-09-07T06:37:44.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://blog.liyehui.cn/faq/index.html</loc>
     
     <lastmod>2017-09-06T03:15:10.000Z</lastmod>
@@ -19,13 +26,6 @@
     <loc>http://blog.liyehui.cn/404.html</loc>
     
     <lastmod>2017-09-02T15:46:04.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://blog.liyehui.cn/2017/09/02/hello-world/</loc>
-    
-    <lastmod>2017-09-02T02:43:10.000Z</lastmod>
     
   </url>
   

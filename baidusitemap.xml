@@ -3,6 +3,26 @@
 
 
     
+  <url>
+    <loc>http://blog.liyehui.cn/2017/09/02/hexo%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</loc>
+    <lastmod>2017-09-07T06:37:44.000Z</lastmod>
+    <data>
+        <display>
+        <title>hexo常用命令</title>
+        <pubTime>2017-09-02T02:43:08.960Z</pubTime>
+        
+        <tag>hexo命令</tag>
+         
+         
+           
+             
+              <breadCrumb title="hexo" url="http://blog.liyehui.cn/categories/hexo/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
     
   <url>
     <loc>http://blog.liyehui.cn/2017/09/02/%E9%80%9A%E8%BF%87%20Hexo%20%E6%8F%92%E4%BB%B6%E6%8F%92%E5%85%A5%E9%9F%B3%E4%B9%90%E8%A7%86%E9%A2%91/</loc>
@@ -21,19 +41,4 @@
     </url>
 
     
-    
-  <url>
-    <loc>http://blog.liyehui.cn/2017/09/02/hello-world/</loc>
-    <lastmod>2017-09-02T02:43:10.000Z</lastmod>
-    <data>
-        <display>
-        <title>Hello World</title>
-        <pubTime>2017-09-02T02:43:08.960Z</pubTime>
-        
-         
-           
-        </display>
-    </data>
-    </url>
-
 </urlset>
