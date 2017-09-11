@@ -132,12 +132,12 @@
 <meta property="og:site_name" content="yehui&#39;blog">
 <meta property="og:description" content="关于音乐，视频添加 虽然可以通过使用html标签的方式加入音乐，视频什么的，但是逼格不够高，还是研究下hexo自带的播放器插件。。">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:image" content="https://www.github.com/liyehuicn/liyehui/raw/master/img/1504959808928.jpg">
-<meta property="og:updated_time" content="2017-09-09T12:28:20.000Z">
+<meta property="og:image" content="https://www.github.com/liyehuicn/liyehui/raw/master/img/1504929555850.jpg">
+<meta property="og:updated_time" content="2017-09-11T03:20:14.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="通过 Hexo 插件插入音乐&#x2F;视频">
 <meta name="twitter:description" content="关于音乐，视频添加 虽然可以通过使用html标签的方式加入音乐，视频什么的，但是逼格不够高，还是研究下hexo自带的播放器插件。。">
-<meta name="twitter:image" content="https://www.github.com/liyehuicn/liyehui/raw/master/img/1504959808928.jpg">
+<meta name="twitter:image" content="https://www.github.com/liyehuicn/liyehui/raw/master/img/1504929555850.jpg">
 
 
 
@@ -433,7 +433,7 @@
                   <span class="post-meta-item-text">字数统计&#58;</span>
                 
                 <span title="字数统计">
-                  414
+                  416
                 </span>
               
 
@@ -470,23 +470,27 @@
       
 
       
-        <script src="/assets/js/APlayer.min.js"> </script><p><hr><br>关于音乐，视频添加</p>
-<p>虽然可以通过使用html标签的方式加入音乐，视频什么的，但是逼格不够高，还是研究下hexo自带的播放器插件。。<br><img src="https://www.github.com/liyehuicn/liyehui/raw/master/img/1504959808928.jpg" alt="enter description here"><br><a id="more"></a><br>插件</p>
-<p>这里需要使用两个播放器插件</p>
+        <script src="/assets/js/APlayer.min.js"> </script><hr>
+
+
+<h1 id="关于音乐，视频添加"><a href="#关于音乐，视频添加" class="headerlink" title="关于音乐，视频添加"></a>关于音乐，视频添加</h1><blockquote>
+<p>虽然可以通过使用html标签的方式加入音乐，视频什么的，但是逼格不够<br>高，还是研究下hexo自带的播放器插件。。</p>
+</blockquote>
+<p><img src="https://www.github.com/liyehuicn/liyehui/raw/master/img/1504929555850.jpg" alt="enter description here"><br><a id="more"></a></p>
+<h2 id="插件"><a href="#插件" class="headerlink" title="插件"></a>插件</h2><p>这里需要使用两个播放器插件</p>
 <p><a href="https://github.com/grzhan/hexo-tag-aplayer#upstream-issue" target="_blank" rel="external">hexo-tag-aplayer</a></p>
 <p><a href="https://github.com/NextMoe/hexo-tag-dplayer" target="_blank" rel="external">hexo-tag-dplayer</a></p>
 <p>两款插件基于 [DIYgod] 编写的 html5 播放器 APlayer 和 DPlayer 开发。</p>
-<p>安装</p>
-<p>网上大部分说直接安装以上两个插件就行，但是后来发现如果直接安装，然后使用标签在文章中是不能使用的，会提示找不到这两个标签这个错误。。</p>
+<h2 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h2><p>网上大部分说直接安装以上两个插件就行，但是后来发现如果直接安装，然后使用标签在文章中是不能使用的，会提示找不到这两个标签这个错误。。</p>
 <p>后来仔细研究了下，这连个hexo插件要想使用，还需要先安装aplayer和dpalyer</p>
 <p>所以正确的安装步奏如下：</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">npm install --save hexo-tag-aplayer</div><div class="line">npm install hexo-tag-dplayer --save</div></pre></td></tr></table></figure>
 <p>然后在文章中就可以正常使用了，关于标签的使用，可以到插件作者主页去查看<br>如果提示缺少文件什么的，请参照这篇文章进行添加:参考</p>
 <p>使用Demo</p>
 <p>以下简单的使用：<br>插入MP3:</p>
-<p>音乐代码：<br>其中author,title 前两个标签必须添加，不然报错，图片可以不用添加</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">&#123;% aplayer &quot;title&quot; &quot;author&quot; &quot;http://opj0cbfmf.bkt.clouddn.com/Part.3%20Lasse%20Lindh%20-%20Hush.mp3&quot;  &quot;http://opj0cbfmf.bkt.clouddn.com/hush.jpg&quot; &quot;autoplay=false&quot; %&#125;</div><div class="line"></div><div class="line">title标题:音乐</div><div class="line">author作者:音乐</div><div class="line">url:音乐文件的url</div><div class="line">picture_url:可选的,音乐图片url</div><div class="line">autoplay:可选,播放音乐,不支持的移动浏览器</div></pre></td></tr></table></figure>
-<p>效果如下：<br><div id="aplayer0" class="aplayer" style="margin-bottom: 20px;"></div>
+<h2 id="音乐代码："><a href="#音乐代码：" class="headerlink" title="音乐代码："></a>音乐代码：</h2><p>其中author,title 前两个标签必须添加，不然报错，图片可以不用添加</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">&#123;% aplayer &quot;title&quot; &quot;author&quot; &quot;http://opj0cbfmf.bkt.clouddn.com/Part.3%20Lasse%20Lindh%20-%20Hush.mp3&quot;  &quot;http://opj0cbfmf.bkt.clouddn.com/hush.jpg&quot; &quot;autoplay=false&quot; %&#125;</div></pre></td></tr></table></figure>
+<p>title标题:音乐<br>author作者:音乐<br>url:音乐文件的url<br>picture_url:可选的,音乐图片url<br>autoplay:可选,播放音乐,不支持的移动浏览器<br>效果如下：<br><div id="aplayer0" class="aplayer" style="margin-bottom: 20px;"></div>
 		<script>
 			new APlayer({
 				element: document.getElementById("aplayer0"),
@@ -494,16 +498,15 @@
 				autoplay: false,
 				showlrc: 0,
 				music: {
-					title: "乞丐",
-					author: "养鸡",
-					url: "https://m10.music.126.net/20170909200209/756b13460ccd565eab68dd44365a17cd/ymusic/3a2e/8d03/c0bb/57de9017ce57680bc9f787cb1da10038.mp3",
-					pic: "https://www.github.com/liyehuicn/liyehui/raw/master/img/1504957996995.jpg",
+					title: "HUSH",
+					author: "Lasse Lindh",
+					url: "http://opj0cbfmf.bkt.clouddn.com/Part.3%20Lasse%20Lindh%20-%20Hush.mp3",
+					pic: "http://opj0cbfmf.bkt.clouddn.com/hush.jpg",
 				}
 			});
 		</script></p>
-<p>视频代码：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">&#123;% dplayer &quot;url=http://devtest.qiniudn.com/若能绽放光芒.mp4&quot;  &quot;pic=https://www.github.com/liyehuicn/liyehui/raw/master/img/1504929555850.jpg&quot; &quot;loop=yes&quot; &quot;theme=#FADFA3&quot; &quot;autoplay=false&quot; &quot;token=tokendemo&quot; %&#125;</div></pre></td></tr></table></figure>
-<p>效果如下：<br><div id="dplayer0" class="dplayer" style="margin-bottom: 20px;"></div><script>var dplayer0 = new DPlayer({"element":document.getElementById("dplayer0"),"autoplay":0,"theme":"#FADFA3","loop":1,"video":{"url":"http://devtest.qiniudn.com/若能绽放光芒.mp4","pic":"https://www.github.com/liyehuicn/liyehui/raw/master/img/1504959808928.jpg"}});</script></p>
+<h2 id="视频代码："><a href="#视频代码：" class="headerlink" title="视频代码："></a>视频代码：</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">&#123;% dplayer &quot;url=http://devtest.qiniudn.com/若能绽放光芒.mp4&quot;  &quot;pic=https://www.github.com/liyehuicn/liyehui/raw/master/img/1504929555850.jpg&quot; &quot;loop=yes&quot; &quot;theme=#FADFA3&quot; &quot;autoplay=false&quot; &quot;token=tokendemo&quot; %&#125;</div></pre></td></tr></table></figure>
+<p>效果如下：<br><div id="dplayer0" class="dplayer" style="margin-bottom: 20px;"></div><script>var dplayer0 = new DPlayer({"element":document.getElementById("dplayer0"),"autoplay":0,"theme":"#FADFA3","loop":1,"video":{"url":"http://devtest.qiniudn.com/若能绽放光芒.mp4","pic":"http://home.ustc.edu.cn/~mmmwhy/GEM.jpg"}});</script></p>
 
       
     </div>
@@ -655,8 +658,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <section class="site-overview sidebar-panel sidebar-panel-active">
+      <section class="site-overview sidebar-panel">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
           
             <img class="site-author-image" itemprop="image"
@@ -685,7 +697,7 @@
             
             <div class="site-state-item site-state-categories">
               <a href="/categories/index.html">
-                <span class="site-state-item-count">2</span>
+                <span class="site-state-item-count">3</span>
                 <span class="site-state-item-name">分类</span>
               </a>
             </div>
@@ -725,26 +737,59 @@
           <div class="links-of-blogroll motion-element links-of-blogroll-inline">
             <div class="links-of-blogroll-title">
               <i class="fa  fa-fw fa-globe"></i>
-              Links
+              Links（申请友链请Q258906337）
             </div>
             <ul class="links-of-blogroll-list">
               
                 <li class="links-of-blogroll-item">
-                  <a href="http://www.liyehui.cn/" title="叶晖博客" target="_blank">叶晖博客</a>
+                  <a href="http://tao.liyehui.cn/" title="淘宝优惠券" target="_blank">淘宝优惠券</a>
+                </li>
+              
+                <li class="links-of-blogroll-item">
+                  <a href="http://www.cloudxns.net/" title="CLOUDXNS" target="_blank">CLOUDXNS</a>
+                </li>
+              
+                <li class="links-of-blogroll-item">
+                  <a href="https://console.upyun.com/register/?invite=Skrtk0e4" title="又拍云" target="_blank">又拍云</a>
+                </li>
+              
+                <li class="links-of-blogroll-item">
+                  <a href="http://www.yybuse.com/" title="依依不舍影视" target="_blank">依依不舍影视</a>
+                </li>
+              
+                <li class="links-of-blogroll-item">
+                  <a href="http://bbs.liyehui.cn/v/" title="VIP视频解析" target="_blank">VIP视频解析</a>
                 </li>
               
             </ul>
           </div>
         
 
-        <div class="line_item line_item_display xiaoshujiang_element" data-line="0"></div>
+        HI-FI顶级人声（孙露精选15首）天籁
+<div class="line_item line_item_display xiaoshujiang_element" data-line="0"></div>
 <p></p>
-<audio src="https://m10.music.126.net/20170909200209/756b13460ccd565eab68dd44365a17cd/ymusic/3a2e/8d03/c0bb/57de9017ce57680bc9f787cb1da10038.mp3"
+<audio src="http://tn1.36dj.com/2014/3601/20/wq1014.m4a"
 controls="">enter description here</audio>
 <p></p>
 
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#关于音乐，视频添加"><span class="nav-number">1.</span> <span class="nav-text">关于音乐，视频添加</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#插件"><span class="nav-number">1.1.</span> <span class="nav-text">插件</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#安装"><span class="nav-number">1.2.</span> <span class="nav-text">安装</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#音乐代码："><span class="nav-number">1.3.</span> <span class="nav-text">音乐代码：</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#视频代码："><span class="nav-number">1.4.</span> <span class="nav-text">视频代码：</span></a></li></ol></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
       
@@ -1053,19 +1098,4 @@ controls="">enter description here</audio>
 
   
 
-<link rel="stylesheet" type="text/css" href="/assets/css/DPlayer.min.css"></link>pt>
-
-
-
-  
-
-  
-
-  
-
-  
-
-  
-
-</body>
-</html>
+<link rel="stylesheet" type="text/css" href="/assets/css/DPlayer.min.css"></link>
